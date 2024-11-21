@@ -396,7 +396,7 @@ export default function Dash() {
                         <div className="container">
                             <div className="panel-white">
                                 <div className="panel-head">
-                                    <h5>Queries by search</h5>
+                                    <h5></h5>
                                     <Menu as="div">
                                         <Menu.Button as="a" className="menudrop" />
                                         <Menu.Items as="ul" className="dropdown-menu dropdown-menu-light dropdown-menu-end show" style={{ right: "0", left: "auto" }}>
