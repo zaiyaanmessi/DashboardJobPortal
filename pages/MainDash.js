@@ -1,5 +1,5 @@
 import VacancyChart from "@/components/elements/VacancyChart"
-import Layout from "@/components/layout/Layout"
+import Layout from "/components/layout/Layout"
 import BrandSlider from "@/components/slider/BrandSlider"
 import { Menu } from '@headlessui/react'
 import Link from "next/link"

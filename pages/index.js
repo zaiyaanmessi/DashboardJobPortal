@@ -82,7 +82,7 @@ export default function Home() {
                                     </Link>
                                 </div>
                                 <div className="form-group">
-                                    <button className="btn btn-brand-1 hover-up w-100" type="submit" onClick={() => window.location.href = '/MainDash'}>
+                                    <button className="btn btn-brand-1 hover-up w-100" type="submit" onClick={() => window.location.href = '/mainDash'}>
                                         Login
                                     </button>
                                 </div>
