@@ -14,21 +14,19 @@ export default function Sidebar() {
             <div className={`nav ${isToggled ? "close-nav" : ""}`}><a className={`btn btn-expanded ${isToggled ? "btn-collapsed" : ""}`} onClick={toggleTrueFalse} />
                 <nav className="nav-main-menu">
                     <ul className="main-menu">
-                        <li> <Link className={router.pathname == "/" ? "dashboard2 active" : "dashboard2"} href="/"><img src="assets/imgs/page/dashboard/dashboard.svg" alt="jobBox" /><span className="name">Dashboard</span></Link>
+                        <li> <Link className={router.pathname == "/" ? "dashboard2 active" : "dashboard2"} href="/MainDash"><img src="assets/imgs/page/dashboard/dashboard.svg" alt="jobBox" /><span className="name">Dashboard</span></Link>
                         </li>
-                        <li> <Link className={router.pathname == "/candidates" ? "dashboard2 active" : "dashboard2"} href="/candidates"><img src="assets/imgs/page/dashboard/candidates.svg" alt="jobBox" /><span className="name">Profile</span></Link>
+                        <li> <Link className={router.pathname == "/candidates" ? "dashboard2 active" : "dashboard2"} href="/profile"><img src="assets/imgs/page/dashboard/candidates.svg" alt="jobBox" /><span className="name">Profile</span></Link>
                         </li>
-                        <li> <Link className={router.pathname == "/recruiters" ? "dashboard2 active" : "dashboard2"} href="/recruiters"><img src="assets/imgs/page/dashboard/recruiters.svg" alt="jobBox" /><span className="name">My Resume</span></Link>
+                        <li> <Link className={router.pathname == "/recruiters" ? "dashboard2 active" : "dashboard2"} href="/my-resume"><img src="assets/imgs/page/dashboard/recruiters.svg" alt="jobBox" /><span className="name">My Resume</span></Link>
                         </li>
                         <li> <Link className={router.pathname == "/my-job-grid" ? "dashboard2 active" : "dashboard2"} href="/my-job-grid"><img src="assets/imgs/page/dashboard/jobs.svg" alt="jobBox" /><span className="name">My Applied</span></Link>
                         </li>
                         <li> <Link className={router.pathname == "/my-tasks-list" ? "dashboard2 active" : "dashboard2"} href="/my-tasks-list"><img src="assets/imgs/page/dashboard/tasks.svg" alt="jobBox" /><span className="name">Jobs Shortlist</span></Link>
                         </li>
-                        <li> <Link className={router.pathname == "/profile" ? "dashboard2 active" : "dashboard2"} href="/profile"><img src="assets/imgs/page/dashboard/profiles.svg" alt="jobBox" /><span className="name">Following Employers</span></Link>
+                        <li> <Link className={router.pathname == "/profile" ? "dashboard2 active" : "dashboard2"} href="/recruiters"><img src="assets/imgs/page/dashboard/profiles.svg" alt="jobBox" /><span className="name">Following Employers</span></Link>
                         </li>
-                        <li> <Link className={router.pathname == "/my-resume" ? "dashboard2 active" : "dashboard2"} href="/my-resume"><img src="assets/imgs/page/dashboard/cv-manage.svg" alt="jobBox" /><span className="name">Jobs Alerts</span></Link>
-                        </li>
-                        <li> <Link className={router.pathname == "/settings" ? "dashboard2 active" : "dashboard2"} href="/settings"><img src="assets/imgs/page/dashboard/settings.svg" alt="jobBox" /><span className="name">Packages</span></Link>
+                        <li> <Link className={router.pathname == "/my-resume" ? "dashboard2 active" : "dashboard2"} href="/my-tasks-list"><img src="assets/imgs/page/dashboard/cv-manage.svg" alt="jobBox" /><span className="name">Jobs Alerts</span></Link>
                         </li>
                         <li> <Link className={router.pathname == "/authentication" ? "dashboard2 active" : "dashboard2"} href="/authentication"><img src="assets/imgs/page/dashboard/authentication.svg" alt="jobBox" /><span className="name">Messages</span></Link>
                         </li>
@@ -36,9 +34,9 @@ export default function Sidebar() {
                         </li>
                         <li> <Link className={router.pathname == "/settings" ? "dashboard2 active" : "dashboard2"} href="/settings"><img src="assets/imgs/page/dashboard/settings.svg" alt="jobBox" /><span className="name">Change Password</span></Link>
                         </li>
-                        <li> <Link className={router.pathname == "/settings" ? "dashboard2 active" : "dashboard2"} href="/settings"><img src="assets/imgs/page/dashboard/settings.svg" alt="jobBox" /><span className="name">Delete Profile</span></Link>
+                        <li> <Link className={router.pathname == "/settings" ? "dashboard2 active" : "dashboard2"} href="/post-job"><img src="assets/imgs/page/dashboard/settings.svg" alt="jobBox" /><span className="name">Delete Profile</span></Link>
                         </li>
-                        <li> <Link className={router.pathname == "/settings" ? "dashboard2 active" : "dashboard2"} href="/settings"><img src="assets/imgs/page/dashboard/settings.svg" alt="jobBox" /><span className="name">Logout</span></Link>
+                        <li> <Link className={router.pathname == "/settings" ? "dashboard2 active" : "dashboard2"} href="/login"><img src="assets/imgs/page/dashboard/settings.svg" alt="jobBox" /><span className="name">Logout</span></Link>
                         </li>
                     </ul>
                 </nav>
