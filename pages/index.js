@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-import Layout from "/components/Layout/Layout";
+import Layout from "/components/layout/Layout";
 import Link from "next/link";
 import { useState } from 'react';
 
