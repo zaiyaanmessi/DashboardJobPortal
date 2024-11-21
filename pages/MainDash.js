@@ -1,10 +1,10 @@
 import VacancyChart from "@/components/elements/VacancyChart"
-import Layout from "/components/layout/Layout"
+import Layout from "@/components/layout/Layout"
 import BrandSlider from "@/components/slider/BrandSlider"
 import { Menu } from '@headlessui/react'
 import Link from "next/link"
 
-export default function Dash() {
+export default function Home() {
     return (
         <>
             <Layout breadcrumbTitle="Dashboard" breadcrumbActive="Dashboard">
@@ -396,7 +396,7 @@ export default function Dash() {
                         <div className="container">
                             <div className="panel-white">
                                 <div className="panel-head">
-                                    <h5></h5>
+                                    <h5>Queries by search</h5>
                                     <Menu as="div">
                                         <Menu.Button as="a" className="menudrop" />
                                         <Menu.Items as="ul" className="dropdown-menu dropdown-menu-light dropdown-menu-end show" style={{ right: "0", left: "auto" }}>

@@ -14,7 +14,7 @@ export default function Sidebar() {
             <div className={`nav ${isToggled ? "close-nav" : ""}`}><a className={`btn btn-expanded ${isToggled ? "btn-collapsed" : ""}`} onClick={toggleTrueFalse} />
                 <nav className="nav-main-menu">
                     <ul className="main-menu">
-                        <li> <Link className={router.pathname == "/" ? "dashboard2 active" : "dashboard2"} href="/mainDash"><img src="assets/imgs/page/dashboard/dashboard.svg" alt="jobBox" /><span className="name">Dashboard</span></Link>
+                        <li> <Link className={router.pathname == "/" ? "dashboard2 active" : "dashboard2"} href="/MainDash"><img src="assets/imgs/page/dashboard/dashboard.svg" alt="jobBox" /><span className="name">Dashboard</span></Link>
                         </li>
                         <li> <Link className={router.pathname == "/candidates" ? "dashboard2 active" : "dashboard2"} href="/profile"><img src="assets/imgs/page/dashboard/candidates.svg" alt="jobBox" /><span className="name">Profile</span></Link>
                         </li>

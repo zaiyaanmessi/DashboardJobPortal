@@ -4,7 +4,7 @@ import Layout from "/components/layout/Layout";
 import Link from "next/link";
 import { useState } from 'react';
 
-export default function Home() {
+export default function Hoome() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
@@ -82,7 +82,7 @@ export default function Home() {
                                     </Link>
                                 </div>
                                 <div className="form-group">
-                                    <button className="btn btn-brand-1 hover-up w-100" type="submit" onClick={() => window.location.href = '/mainDash'}>
+                                    <button className="btn btn-brand-1 hover-up w-100" type="submit" onClick={() => window.location.href = '/MainDash'}>
                                         Login
                                     </button>
                                 </div>
